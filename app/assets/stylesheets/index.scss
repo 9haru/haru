@@ -1,0 +1,92 @@
+.big-books{
+    background-color: #f5deb3;
+}
+
+.books-container {
+    width: 70%;
+    margin: 10px auto;
+  }
+  h3 {
+    width: 100px;
+    margin: 30px auto;
+    text-align: center;
+    justify-content: center;
+  }
+  .book {
+    border-top: solid #deb887;
+    margin-top: 25px;
+    padding-top: 20px;
+  }
+  .main-box {
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .time {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .img-wrapper {
+    width: 900px;
+    height: 1000px;
+    background-image: url(honndana.jpg.jpg);
+    display: flex;
+    justify-content: center;
+}    
+
+  .btn-circle-flat {
+    display: inline-block;
+    text-decoration: none;
+    background: #deb887;
+    color: #FFF;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    transition: .4s;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
+  
+
+  .books-colum{
+    background-color: #c9bcaa;
+    height: 170px;
+    font-weight: bold;
+    display: flex;
+
+    h3 {
+        width: 1200px;
+        margin: 30px auto;
+        font-size:  25px; 
+        text-align: left;
+        display: flex;
+        justify-content: left;
+      }
+ }
+
+.book{
+    display: block;
+ .pic{
+    display: block;
+    justify-content: center;
+ }
+
+.title{
+    display: block;
+    justify-content: space-between;
+}
+
+.author{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.about{
+    display: flex;
+}
+
+}

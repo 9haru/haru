@@ -1,0 +1,26 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com
+
+
+.book{
+    display: block;
+}
+ .pic{
+    display: flex;
+    justify-content: center;
+ }
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.author{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.about{
+    display: flex;
+}

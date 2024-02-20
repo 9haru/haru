@@ -1,0 +1,50 @@
+.back-box{
+    background-color: #f5deb3;
+
+
+.post-container {
+    margin: 50px auto;
+    width: 50%;
+    border: solid #d2b48c;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d2b48c;
+  }
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 15px;
+  }
+  input[type="text"] {
+    width: 95%;
+    height: 40px;
+  }
+  input[type="submit"] {
+    width: 200px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+    .field-1{
+        justify-content: center;
+        margin-bottom:20px ;
+  } 
+    .field-2{
+        justify-content: center;
+        margin-bottom:30px ;
+  }
+    .field-3{
+        width: 100%;
+        line-height: 3;
+        display: flex;
+        text-align: center;
+        margin-bottom: 30px;
+
+  }
+    .field-4{
+        margin-bottom:20px ;
+  }
+
+
+}

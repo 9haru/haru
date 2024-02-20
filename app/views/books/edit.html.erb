@@ -1,0 +1,19 @@
+<div class="backbox">
+<div class="edit-container">
+
+<%= form_for @book do |f| %>
+ <div class="field">
+    <%= f.label :title %>
+    <%= f.text_field :title, :size => 30 %>
+</div>
+<div class="field">
+<%= f.label :author %>
+<%= f.text_field :author, :size => 30 %>
+</div>
+    <%= f.label :about %>
+    <%= f.text_field :about, :size => 140 %> 
+    <%= f.submit "編集する" %>
+  <% end %>
+
+</div>
+</div>
